@@ -1,0 +1,18 @@
+prompt for file name;
+open file to scan;
+
+while (current line is not null)
+{
+    append entire line to string;
+}
+
+
+while (the word still appears in the text)
+{
+    use string.indexOf to find index where the word appears first;
+
+    reconstruct the text:
+        [from 0 to index] + "use" + [from (index + 3) to end]
+}
+
+print the text to file;

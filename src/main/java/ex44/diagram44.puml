@@ -1,0 +1,18 @@
+@startuml
+'https://plantuml.com/activity-diagram-beta
+
+start
+
+:Open .json file and store contents in Object;
+repeat
+:prompt for and record product name from user;
+if (name is found in Object) then (yes)
+:print product information;
+else
+:do nothing;
+endif
+repeat while (name not found in Object?) is (yes)
+
+stop
+
+@enduml

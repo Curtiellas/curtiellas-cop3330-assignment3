@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/object-diagram
+
+object readFile
+object replaceAll
+object replaceSpecific
+object findString
+object printFile
+
+circle Text
+circle NewText
+
+readFile .> Text
+Text .> replaceAll
+
+replaceAll --> findString
+replaceAll --> replaceSpecific
+replaceAll --> replaceSpecific
+replaceAll --> replaceSpecific
+
+replaceAll -> NewText
+NewText -> printFile
+
+@enduml

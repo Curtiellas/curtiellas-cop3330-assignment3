@@ -1,0 +1,18 @@
+@startuml
+'https://plantuml.com/activity-diagram-beta
+
+start
+
+:scan file and store text in String text;
+repeat
+:split first word in the file;
+:remove next instance of word;
+:counter++;
+:add the word and counter to arrayList of Maps;
+backward: repeat steps;
+repeat while (while more words in text)
+:print each word removed and how many of that word there was;
+
+stop
+
+@enduml

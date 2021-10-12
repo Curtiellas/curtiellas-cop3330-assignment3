@@ -1,0 +1,31 @@
+create scanner;
+
+read entire line in file;
+
+turn string into array of chars;
+
+for ( array length )
+{
+    if (current char is comma)
+    {
+        //record comma position
+        int comma = index;
+    }
+}
+
+build strings using comma positions and string.substring method
+
+last name
+0 to (comma1)
+
+first name
+(comma1 + 1) to (comma2)
+
+salary
+(comma2 + 1) to (end of array)
+
+save the 3 values into array, then add them to arrayList of Maps
+
+REPEAT FROM LINE 3 TO LINE 27 UNTIL ALL LINES FROM FILE ARE READ
+
+build table output and print

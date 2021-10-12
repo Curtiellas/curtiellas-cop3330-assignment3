@@ -1,0 +1,16 @@
+record site name, author, JS folder choice, and CSS folder choice;
+
+create main folder at ./website/NAME
+    print success message
+
+create html file at ./website/NAME/index.html
+    print success message
+        write to html file the name and author
+
+if (JS)
+    create JS folder at ./website/NAME/JS
+        print success message
+
+if (CSS)
+    create JS folder at ./website/NAME/CSS
+        print success message

@@ -1,0 +1,36 @@
+2 Objects needed:
+    Obj1 {
+        String identifier ("products");
+        Obj2[] products {
+            String name;
+            Double price;
+            int Quantity;
+        }
+    }
+
+Steps:
+
+1- Create Obj1
+2- Copy info from .json file into Obj1
+3- Ask for input product name repeatedly until step 5
+4- Search for input in Obj1 product list
+5- If product found, print its name, price, quantity
+
+step 3 to 5 expanded
+
+while (name not found in products) {
+    prompt for name;
+    record name;
+
+    for ( num products ) {
+        if ( product name matches ) {
+            print name of index where found;
+            print price of index where found;
+            print quantity of index where found;
+        }
+    }
+
+    if ( product name matches ) {
+        break while loop;
+    }
+}

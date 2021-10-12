@@ -1,0 +1,18 @@
+create an arrayList of maps
+
+while ( the current line is not null )
+{
+    read entire line;
+
+    separate each string in the line read;
+
+    remove the comma from the first string (last name);
+
+    add the strings saved as (firstName, "string") and (lastName, "string");
+
+    add counter++ for each line, so that the number of people is recorded;
+}
+
+sort the arrayList using lastName;
+
+build output and print the arrayList formatted;

@@ -1,0 +1,28 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class employeesArray {
+    String firstName
+    String lastName
+
+}
+
+class F_NameMap {
+    key "First Name"
+    value "John"
+}
+
+class L_NameMap {
+    key "Last Name"
+    value "Johnson"
+}
+
+note "More Maps as needed.\n2 for each person\nin the list" as N1
+
+F_NameMap --> employeesArray
+L_NameMap --> employeesArray
+
+F_NameMap .. N1
+L_NameMap .. N1
+
+@enduml

@@ -1,0 +1,17 @@
+create arrayList of maps <String, String>
+Ex.
+"Word", whatever
+"Count", 5
+
+read all lines from file;
+
+split whole string and use the first word, called 'replace';
+
+    find index where 'replace' is;
+    re-build whole text string without 'replace';
+    repeat until 'replace' is no longer present in the text;
+    each time a new occurrence of the word is found and replaced, add +1 to a counter;
+
+    add the word 'replace' and the 'count' of that word to the arrayList;
+
+repeat LINE 8 - LINE 15 until all the words in the text have been removed, recorded, and counted.

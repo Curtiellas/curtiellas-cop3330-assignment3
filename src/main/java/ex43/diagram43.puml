@@ -1,0 +1,10 @@
+@startuml
+'https://plantuml.com/object-diagram
+
+actor User as p1
+p1 -> MainFolder : Enter site name and author
+p1 -> index.html : Enter site name and author
+p1 -> JSFolder : Enter yes to JS prompt
+p1 -> CSSFolder : Enter yes to CSS prompt
+
+@enduml
